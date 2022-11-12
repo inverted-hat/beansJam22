@@ -26,7 +26,7 @@
                     "spriteSheetId": "2a284260-34d7-405b-b0ec-6b812f4c9f03",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -153,7 +153,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -247,7 +247,7 @@
                     "spriteSheetId": "2a284260-34d7-405b-b0ec-6b812f4c9f03",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -373,7 +373,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -467,7 +467,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -569,7 +569,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -671,7 +671,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -773,7 +773,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -2459,11 +2459,11 @@
             "id": "2a284260-34d7-405b-b0ec-6b812f4c9f03",
             "name": "coke",
             "symbol": "sprite_coke",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 2,
+            "type": "animated",
             "filename": "coke.png",
-            "checksum": "8c9422751d882c908f40fbcb43bbe796ea9c856c",
-            "width": 16,
+            "checksum": "5099fc6928da26c23baf56dc3ef4d8b416dc102a",
+            "width": 32,
             "height": 16,
             "states": [
                 {
@@ -2502,6 +2502,37 @@
                                             "palette": 0,
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "f78b1cfa-f2aa-4c09-a0bb-0ee350eaa4a7",
+                                    "tiles": [
+                                        {
+                                            "id": "2578a44c-84ba-4b53-b311-1aa192a4997f",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "55ffd760-b58f-4985-8f1d-d3c3f2a7b43b",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -2574,7 +2605,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -2587,11 +2618,11 @@
             "id": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
             "name": "milk",
             "symbol": "sprite_milk",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 2,
+            "type": "animated",
             "filename": "milk.png",
-            "checksum": "8b95572b8529b2925da02d432c743d6f014e58b3",
-            "width": 16,
+            "checksum": "618190ca6f5bf1853c3bb6cd2ad7a51021ad12b8",
+            "width": 32,
             "height": 16,
             "states": [
                 {
@@ -2630,6 +2661,37 @@
                                             "palette": 0,
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8b5c3df8-d8ba-469f-af67-b6a637d87d64",
+                                    "tiles": [
+                                        {
+                                            "id": "7070351f-95bf-45af-aa97-ea786e6d22d3",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "5332279b-9b37-483a-a219-64d237323253",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -2702,7 +2764,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -5105,9 +5167,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 832,
-        "worldScrollY": 92,
-        "zoom": 291.9223242998123,
+        "worldScrollX": 1326,
+        "worldScrollY": 264,
+        "zoom": 373.9630596935749,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",

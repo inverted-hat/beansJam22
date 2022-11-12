@@ -131,7 +131,8 @@
                                 "$variable[V4]$": {
                                     "type": "variable",
                                     "value": "L3"
-                                }
+                                },
+                                "__collapse": true
                             },
                             "id": "c141ff9b-a434-463e-965d-97c3cd347d65"
                         }
@@ -152,7 +153,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -193,7 +194,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "3f023da4-06ba-4b02-9072-c15975245aea"
@@ -372,7 +373,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -413,7 +414,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "3d1f42bd-a85b-4d9f-a671-8cc8fc03104a"
@@ -466,7 +467,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -507,7 +508,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "c2e16054-a2c2-4b20-ae9a-d74f95f1bacf"
@@ -568,7 +569,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -609,7 +610,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "dcf2987c-ffe3-4013-8e7f-fe3e7e0adc3c"
@@ -670,7 +671,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -711,7 +712,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "7527a6c5-bba3-49b8-9e10-da1faee74da5"
@@ -772,7 +773,7 @@
                     "spriteSheetId": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
                     "direction": "down",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 31,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -813,7 +814,7 @@
                         {
                             "command": "EVENT_GBVM_SCRIPT",
                             "args": {
-                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                                "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                                 "__collapse": false
                             },
                             "id": "08b36bcf-ca78-4f66-b66a-77a786c6c5c6"
@@ -1014,7 +1015,7 @@
                 {
                     "command": "EVENT_GBVM_SCRIPT",
                     "args": {
-                        "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
+                        "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
                         "__collapse": false
                     },
                     "id": "2f68ad90-f3e7-4311-a4ec-5883f456fc5b"
@@ -2461,7 +2462,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "coke.png",
-            "checksum": "8c9422751d882c908f40fbcb43bbe796ea9c856c",
+            "checksum": "feeb028ec28871cd93219c8af45f378501641e4d",
             "width": 16,
             "height": 16,
             "states": [
@@ -2586,11 +2587,11 @@
             "id": "41c7228d-0b1d-41f9-a87a-1c39b11c5feb",
             "name": "milk",
             "symbol": "sprite_milk",
-            "numFrames": 1,
-            "type": "static",
+            "numFrames": 2,
+            "type": "animated",
             "filename": "milk.png",
-            "checksum": "8b95572b8529b2925da02d432c743d6f014e58b3",
-            "width": 16,
+            "checksum": "618190ca6f5bf1853c3bb6cd2ad7a51021ad12b8",
+            "width": 32,
             "height": 16,
             "states": [
                 {
@@ -2629,6 +2630,37 @@
                                             "palette": 0,
                                             "paletteIndex": 0,
                                             "objPalette": "OBP0",
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "8b5c3df8-d8ba-469f-af67-b6a637d87d64",
+                                    "tiles": [
+                                        {
+                                            "id": "7070351f-95bf-45af-aa97-ea786e6d22d3",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "5332279b-9b37-483a-a219-64d237323253",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 0,
                                             "priority": false
                                         }
                                     ]
@@ -2701,7 +2733,7 @@
                     ]
                 }
             ],
-            "numTiles": 2,
+            "numTiles": 4,
             "canvasWidth": 16,
             "canvasHeight": 16,
             "boundsX": 0,
@@ -3607,7 +3639,7 @@
                 {
                     "command": "EVENT_GBVM_SCRIPT",
                     "args": {
-                        "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 Score   Coke  Time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT"
+                        "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT"
                     },
                     "id": "4c15e5d4-e2d4-4c86-a07f-05c3dcf49285"
                 }
@@ -5096,17 +5128,17 @@
         }
     ],
     "settings": {
-        "startSceneId": "fb0bd08a-eb58-40b9-83e9-1a0264dbf984",
-        "startX": 10,
-        "startY": 14,
+        "startSceneId": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e",
+        "startX": 8,
+        "startY": 9,
         "startMoveSpeed": 1,
         "startAnimSpeed": 15,
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1381,
-        "worldScrollY": 51,
-        "zoom": 291.9223242998123,
+        "worldScrollX": 1326,
+        "worldScrollY": 264,
+        "zoom": 373.9630596935749,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
