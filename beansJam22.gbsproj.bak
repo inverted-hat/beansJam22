@@ -34,6 +34,20 @@
                     "symbol": "actor_0",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "high",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 4,
+                                "__collapse": false
+                            },
+                            "id": "53d9adba-be04-47fe-99c3-c89996972df9"
+                        },
+                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -161,6 +175,19 @@
                     "symbol": "actor_1",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "high",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 5
+                            },
+                            "id": "358249a7-ceb4-459a-aed8-791d82bd889d"
+                        },
+                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -254,6 +281,20 @@
                     "collisionGroup": "1",
                     "symbol": "actor_2",
                     "script": [
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "high",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 4,
+                                "__collapse": false
+                            },
+                            "id": "0b3a8026-e468-4783-a654-1c08f3cdc8b7"
+                        },
                         {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
@@ -381,6 +422,19 @@
                     "symbol": "actor_3",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "high",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 5
+                            },
+                            "id": "9a64c286-d9c1-45f9-a72e-f83c09e7aa15"
+                        },
+                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -474,6 +528,19 @@
                     "collisionGroup": "1",
                     "symbol": "actor_4",
                     "script": [
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 9
+                            },
+                            "id": "eb369c3c-733f-43c2-91e3-c449787d9bc0"
+                        },
                         {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
@@ -577,6 +644,19 @@
                     "symbol": "actor_5",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 9
+                            },
+                            "id": "1c6dfad0-4db4-4f69-acaa-8b174687defd"
+                        },
+                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -679,6 +759,19 @@
                     "symbol": "actor_6",
                     "script": [
                         {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 9
+                            },
+                            "id": "7f52b453-a831-4609-8caf-685622e17da3"
+                        },
+                        {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$",
@@ -780,6 +873,19 @@
                     "collisionGroup": "1",
                     "symbol": "actor_7",
                     "script": [
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": false,
+                                "effect": 9
+                            },
+                            "id": "d355c2c4-12a0-4142-97e5-4a93e7cb49e5"
+                        },
                         {
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
@@ -986,6 +1092,14 @@
                                     "__collapse": true
                                 },
                                 "id": "16281773-37b7-40f7-9779-6f2c5ec6d82f"
+                            },
+                            {
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "L2",
+                                    "__collapse": true
+                                },
+                                "id": "f6d2fc17-64da-4f01-be70-15d57869f3d2"
                             }
                         ]
                     },
@@ -1016,7 +1130,7 @@
                     "command": "EVENT_GBVM_SCRIPT",
                     "args": {
                         "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "2f68ad90-f3e7-4311-a4ec-5883f456fc5b"
                 },
@@ -1944,6 +2058,13 @@
             "triggers": [],
             "script": [
                 {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "01d9c80b-eb41-40de-80ac-172ac53a21cb"
+                    },
+                    "id": "9a579d5e-2d8d-4325-be11-3623995e3093"
+                },
+                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -1991,7 +2112,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "highscore.png"
+            "filename": "highscore.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -2012,7 +2134,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "start.png"
+            "filename": "start.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -5122,6 +5245,14 @@
     ],
     "music": [
         {
+            "id": "01d9c80b-eb41-40de-80ac-172ac53a21cb",
+            "name": "bs-mm-metal",
+            "symbol": "song_bs_mm_metal",
+            "filename": "bs-mm-metal.uge",
+            "settings": {},
+            "type": "uge"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -5130,7 +5261,17 @@
             "type": "mod"
         }
     ],
-    "sounds": [],
+    "sounds": [
+        {
+            "id": "ac899e6a-270b-4d40-acfb-e250f9b75c0b",
+            "name": "fxbank.sav",
+            "symbol": "sound_fxbank_sav",
+            "filename": "fxbank.sav",
+            "type": "fxhammer",
+            "inode": "10399327",
+            "_v": 1668337645833
+        }
+    ],
     "fonts": [
         {
             "id": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
@@ -5161,21 +5302,6 @@
             "id": "1",
             "name": "coke",
             "symbol": "var_coke"
-        },
-        {
-            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L0",
-            "name": "playerX",
-            "symbol": "var_playerx"
-        },
-        {
-            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L1",
-            "name": "playerY",
-            "symbol": "var_playery"
-        },
-        {
-            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L2",
-            "name": "startGame",
-            "symbol": "var_startgame"
         },
         {
             "id": "2",
@@ -5226,6 +5352,21 @@
             "id": "11",
             "name": "cokeHundreds",
             "symbol": "var_cokehundreds"
+        },
+        {
+            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L0",
+            "name": "playerX",
+            "symbol": "var_playerx"
+        },
+        {
+            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L1",
+            "name": "playerY",
+            "symbol": "var_playery"
+        },
+        {
+            "id": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e__L2",
+            "name": "startGame",
+            "symbol": "var_startgame"
         }
     ],
     "engineFieldValues": [
@@ -5247,9 +5388,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 103,
-        "worldScrollY": 0,
-        "zoom": 154.37042647600174,
+        "worldScrollX": 472,
+        "worldScrollY": 165,
+        "zoom": 242.68107241392136,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
@@ -5277,7 +5418,7 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            465,
+            466,
             142,
             142
         ],
