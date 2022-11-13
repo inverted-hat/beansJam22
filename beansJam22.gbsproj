@@ -986,6 +986,14 @@
                                     "__collapse": true
                                 },
                                 "id": "16281773-37b7-40f7-9779-6f2c5ec6d82f"
+                            },
+                            {
+                                "command": "EVENT_SET_FALSE",
+                                "args": {
+                                    "variable": "L2",
+                                    "__collapse": true
+                                },
+                                "id": "f6d2fc17-64da-4f01-be70-15d57869f3d2"
                             }
                         ]
                     },
@@ -1016,7 +1024,7 @@
                     "command": "EVENT_GBVM_SCRIPT",
                     "args": {
                         "script": "VM_OVERLAY_CLEAR 0 0 20 2 .UI_COLOR_WHITE .UI_DRAW_FRAME\nVM_LOAD_TEXT 7 \n.dw VAR_SCORETENTHOUSANDS, VAR_SCORETHOUSANDS, VAR_SCOREHUNDREDS, VAR_SCORETENS, VAR_SCOREONES, VAR_COKE, VAR_TIME\n.asciz \"\\003\\001\\001 score   kola  time\\n \\003\\002\\002 %d%d%d%d%d   %D3   %D3\"\nVM_DISPLAY_TEXT",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "id": "2f68ad90-f3e7-4311-a4ec-5883f456fc5b"
                 },
@@ -1887,6 +1895,94 @@
                     "command": "EVENT_OVERLAY_HIDE",
                     "args": {},
                     "id": "484c7d74-02e3-4cb7-b740-db07f3a720e4"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "select",
+                            "start",
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "877ec5db-5bf9-44dd-8bef-b2baf2f5af4f",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "067240f2-78d5-468f-bf11-e82f4aac0905"
+                            }
+                        ]
+                    },
+                    "id": "b82e695e-7276-46bd-8d50-a712adce2a37"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "start",
+            "backgroundId": "c8ea21de-20af-4dd3-b110-4565cbeec56c",
+            "width": 20,
+            "height": 18,
+            "type": "LOGO",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "877ec5db-5bf9-44dd-8bef-b2baf2f5af4f",
+            "symbol": "scene_3",
+            "x": 155.08530978110335,
+            "y": 63.6852084865386,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "left",
+                            "up",
+                            "down",
+                            "right",
+                            "select",
+                            "start",
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e",
+                                    "x": 8,
+                                    "y": 9,
+                                    "direction": "down",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "120940fd-c10d-4134-94f4-e8424375d077"
+                            }
+                        ]
+                    },
+                    "id": "79af816f-e6d8-4245-8f93-1c50c5e9972f"
                 }
             ],
             "playerHit1Script": [],
@@ -1915,6 +2011,16 @@
             "imageHeight": 144,
             "filename": "placeholder.png",
             "tileColors": []
+        },
+        {
+            "id": "c8ea21de-20af-4dd3-b110-4565cbeec56c",
+            "name": "start",
+            "symbol": "bg_start",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "start.png"
         }
     ],
     "spriteSheets": [
@@ -5133,7 +5239,7 @@
     "engineFieldValues": [
         {
             "id": "fade_style",
-            "value": 0
+            "value": 1
         },
         {
             "id": "topdown_grid",
@@ -5141,7 +5247,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "e7f00d3c-93ac-44cc-bfb6-0f929976fd8e",
+        "startSceneId": "877ec5db-5bf9-44dd-8bef-b2baf2f5af4f",
         "startX": 8,
         "startY": 9,
         "startMoveSpeed": 1,
@@ -5149,9 +5255,9 @@
         "startDirection": "down",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 446,
+        "worldScrollX": 163,
         "worldScrollY": 0,
-        "zoom": 183.005715072155,
+        "zoom": 154.37042647600174,
         "customColorsEnabled": false,
         "sgbEnabled": false,
         "customHead": "",
